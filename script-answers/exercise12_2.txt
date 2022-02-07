@@ -1,0 +1,22 @@
+Script started on Mon Feb  7 14:45:32 2022
+[1m[7m%[27m[1m[0m                                                                      ]2;mike@nidum:~/Sites/FSO21/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker container run -it ubuntu bash[?1l>[?2004l
+]2;docker container run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K08c01a0ec47e: Pulling fs layer [1B[1A[2K08c01a0ec47e: Downloading  294.1kB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  1.768MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  5.008MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  7.359MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  9.423MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  12.36MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  14.71MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  17.38MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  19.45MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading   21.5MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading  24.14MB/28.56MB[1B[1A[2K08c01a0ec47e: Downloading   26.8MB/28.56MB[1B[1A[2K08c01a0ec47e: Verifying Checksum [1B[1A[2K08c01a0ec47e: Download complete [1B[1A[2K08c01a0ec47e: Extracting  294.9kB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  2.949MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  5.308MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  7.078MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  9.437MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting   11.5MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  14.45MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting   17.1MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  20.05MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  22.71MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  24.18MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  26.54MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  28.02MB/28.56MB[1B[1A[2K08c01a0ec47e: Extracting  28.56MB/28.56MB[1B[1A[2K08c01a0ec47e: Pull complete [1BDigest: sha256:669e010b58baf5beb2836b253c1fd5768333f0d1dbcb834f7c07a4dc93f474be
+Status: Downloaded newer image for ubuntu:latest
+]0;root@8f545ccf0169: /root@8f545ccf0169:/# [K]0;root@8f545ccf0169: /root@8f545ccf0169:/# mkdir usr/src/app
+]0;root@8f545ccf0169: /root@8f545ccf0169:/# toush       cd s usr/
+]0;root@8f545ccf0169: /usrroot@8f545ccf0169:/usr# cd src/
+]0;root@8f545ccf0169: /usr/srcroot@8f545ccf0169:/usr/src# s cd app/
+]0;root@8f545ccf0169: /usr/src/approot@8f545ccf0169:/usr/src/app# toush index.js
+bash: toush: command not found
+]0;root@8f545ccf0169: /usr/src/approot@8f545ccf0169:/usr/src/app# yo  touch index.js
+]0;root@8f545ccf0169: /usr/src/approot@8f545ccf0169:/usr/src/app# e ls
+index.js
+]0;root@8f545ccf0169: /usr/src/approot@8f545ccf0169:/usr/src/app# exist  t
+exit
+[1m[7m%[27m[1m[0m                                                                      ]2;mike@nidum:~/Sites/FSO21/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004haatom .[?1l>[?2004l
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                      ]2;mike@nidum:~/Sites/FSO21/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[01;32m➜  [36mscript-answers[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                      ]2;mike@nidum:~/Sites/FSO21/part12/part12-containers-applications]1;..-applications[0m[27m[24m[J[01;32m➜  [36mpart12-containers-applications[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                      ]2;mike@nidum:~/Sites/FSO21/part12/part12-containers-applications]1;..-applications[0m[27m[24m[J[01;32m➜  [36mpart12-containers-applications[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hc ggit commit -am "part 1  [K[K[A[69C2 [K  ex 2"
