@@ -12,3 +12,8 @@ services:
     volumes:
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
       - ./mongo_data:/data/db
+
+  redis:
+    image: redis
+    environment:
+      REDIS_URL: http://localhost:6379/
