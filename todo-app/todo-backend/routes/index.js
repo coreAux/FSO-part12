@@ -1,4 +1,4 @@
-const redis = require('../redis');
+const { getAsync } = require('../redis');
 const express = require('express');
 const router = express.Router();
 
@@ -13,6 +13,15 @@ router.get('/', async (req, res) => {
   res.send({
     ...configs,
     visits
+  });
+});
+
+router.get('/statistics', async (req, res) => {
+
+  const added_todos = await getAsync('added_todos');
+
+  res.json({
+    added_todos
   });
 });
 
